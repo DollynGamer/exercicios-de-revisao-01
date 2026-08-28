@@ -69,3 +69,54 @@ dinheiro = float(input("Dinheiro recebido: "))
 troco = dinheiro - (preco * compra)
 
 print(f"Troco: {troco:.2f}")
+
+print(Fore.RED + "-"*100 + Style.RESET_ALL)
+
+# 06 Problema: circulo
+
+raio = float(input("Digite o valor do raio do circulo: "))
+
+area = math.pi * raio**2
+
+print(f"Area = {area:.3f}")
+
+print(Fore.RED + "-"*100 + Style.RESET_ALL)
+
+# 07 Problema: Pagamento
+
+nome = input("Digite seu nome: ")
+valor_hora = float(input("Digite o valor por hora: "))
+trabalhadas = int(input("Digite a quantidade trabalhada: "))
+
+pagamento = valor_hora * trabalhadas
+
+print(f"O pagamento para {nome} deve ser {pagamento:.2f}")
+
+print(Fore.RED + "-"*100 + Style.RESET_ALL)
+
+# 08 Problema: Consumo
+
+distancia = int(input("Distancia percorrida: "))
+combustivel = float(input("Combustivel gasto: "))
+
+media = distancia / combustivel
+
+print(f"Consumo medio = {media:.3f}")
+
+print(Fore.RED + "-"*100 + Style.RESET_ALL)
+
+# 09 Problema: Medidas
+
+medida1 = float(input("Digite a medida A: "))
+medida2 = float(input("Digite a medida B: "))
+medida3 = float(input("Digite a medida C: "))
+
+quadrado = medida1 ** 2
+triangulo = (medida1 * medida2) / 2
+trapezio = ((medida1 + medida2) * medida3) / 2
+
+print(f"Area do Quadrado: {quadrado:.4f}")
+print(f"Area do Triangulo: {triangulo:.4f}")
+print(f"Area do Trapezio: {trapezio:.4f}")
+
+print(Fore.RED + "-"*100 + Style.RESET_ALL)
