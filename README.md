@@ -7,7 +7,8 @@ essas primeiras atividades são uma revisão de:
 
 *(A ESTRUTURA CONDICIONAL AINDA NÃO FOI FEITA)*
 
-Os exercícios de estrutura sequencial podem ser encontradas no arquivo `atividades.py` *(provavelmente vou trocar esse nome no futuro)*
+Os exercícios de estrutura sequencial podem ser encontradas no arquivo `atividades_sequencial.py`
+Menu para acessar as atividades foi incluso, pode ser encontrado no arquivo `main.py`
 
 é isso.
 
