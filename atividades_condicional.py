@@ -37,6 +37,7 @@ def baskara():
         print(f"X2: {x2:.4f}")
 
 # 03 Problema: menor de tres
+
 def menor_de_tres():
     a = int(input("Primeiro valor: "))
     b = int(input("Segundo valor: "))
@@ -45,3 +46,43 @@ def menor_de_tres():
     valores = [a, b, c]
 
     print(f"Menor: {min(valores)}")
+
+# 04 Problema: operadora
+
+def operadora():
+    quantidade = int(input("Digite a quantidade de minutos: "))
+    valor = 50.0
+
+    if quantidade <= 100:
+        print(f"Valor a pagar: R${valor:.2f}")
+    else:
+        for i in range(100, quantidade):
+            valor = valor + 2
+        print(f"Valor a pagar: R${valor:.2f}")
+
+# 05 Problema: troco verificado
+
+def troco_verificado():
+    preco = float(input("Preco unit. do produto: "))
+    compra = int(input("Quantidade comprada: "))
+    dinheiro = float(input("Dinheiro recebido: "))
+    
+    troco = dinheiro - (preco * compra)
+
+    if dinheiro >= (preco * compra):
+        print(f"Troco: {troco:.2f}")
+    else:
+        troco = (preco * compra) - dinheiro
+        print(f"Dinheiro insuficiente! faltam {troco:.2f}")
+
+# 06 Problema: glicose
+
+def glicose():
+    glicose = float(input("Digite a medida da glicose: "))
+
+    if glicose <= 100:
+        print("Normal")
+    elif glicose > 100 and glicose <= 140:
+        print("Elevado")
+    else:
+        print("Diabetes")

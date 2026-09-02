@@ -5,11 +5,16 @@ essas primeiras atividades são uma revisão de:
 - Estrutura Sequencial
 - Estrutura Condicional
 
-*(A ESTRUTURA CONDICIONAL AINDA NÃO FOI FEITA)*
+*(A ESTRUTURA CONDICIONAL EM ANDAMENTO)*
 
-Os exercícios de estrutura sequencial podem ser encontradas no arquivo `atividades_sequencial.py`
+Os exercícios de estrutura sequencial e condicional podem ser encontradas nos arquivos `atividades_sequencial.py` `atividades_condicional.py`
 
 Menu para acessar as atividades foi incluso, pode ser encontrado no arquivo `main.py`
+
+# Requisitos
+Colorama v0.4.6
+
+**existe um arquivo `requirements.txt` então apenas utilize `pip install -r requirements.txt` e vai funcionar**
 
 é isso.
 

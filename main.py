@@ -83,7 +83,7 @@ while(True):
             try:
                 linhas(1)
                 print("Atividades de Estrutura Condicional")
-                print("Escolha a atividade usando numeros de 1 a 9")
+                print("Escolha a atividade usando numeros de 1 a 13")
                 print("Caso queira voltar para o menu inicial, use 0")
             
                 opcao = input("Qual atividade você gostaria de ver?: ")
@@ -103,22 +103,13 @@ while(True):
                         menor_de_tres()
                     case "4":
                         linhas(2)
-                        soma()
+                        operadora()
                     case "5":
                         linhas(2)
-                        troco()
+                        troco_verificado()
                     case "6":
                         linhas(2)
-                        circulo()
-                    case "7":
-                        linhas(2)
-                        pagamento()
-                    case "8":
-                        linhas(2)
-                        consumo()
-                    case "9":
-                        linhas(2)
-                        medidas()
+                        glicose()
                     case _:
                         print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
             except ValueError as e:
