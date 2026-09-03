@@ -5,8 +5,6 @@ essas primeiras atividades são uma revisão de:
 - Estrutura Sequencial
 - Estrutura Condicional
 
-*(A ESTRUTURA CONDICIONAL EM ANDAMENTO)*
-
 Os exercícios de estrutura sequencial e condicional podem ser encontradas nos arquivos `atividades_sequencial.py` `atividades_condicional.py`
 
 Menu para acessar as atividades foi incluso, pode ser encontrado no arquivo `main.py`

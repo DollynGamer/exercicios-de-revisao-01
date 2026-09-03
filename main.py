@@ -110,6 +110,27 @@ while(True):
                     case "6":
                         linhas(2)
                         glicose()
+                    case "7":
+                        linhas(2)
+                        dardo()
+                    case "8":
+                        linhas(2)
+                        temperatura()
+                    case "9":
+                        linhas(2)
+                        lanchonete()
+                    case "10":
+                        linhas(2)
+                        multiplos()
+                    case "11":
+                        linhas(2)
+                        aumento()
+                    case "12":
+                        linhas(2)
+                        tempo_de_jogo()
+                    case "13":
+                        linhas(2)
+                        coordenadas()
                     case _:
                         print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
             except ValueError as e:
