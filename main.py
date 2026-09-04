@@ -1,5 +1,6 @@
 from atividades_sequencial import *
 from atividades_condicional import *
+from atividades_repeticao import *
 from colorama import Fore, Back, Style, init
 
 init()
@@ -25,6 +26,7 @@ while(True):
     print("\n Lista de Menus:")
     print("1 = Estrutura Sequencial (27/08/26)")
     print("2 = Estrutura Condicional (27/08/26)")
+    print("3 = Estrutura de Repeticao (While e For) (27/08/26)")
     print("qualquer letra = Sair do programa")
 
     try:
@@ -131,6 +133,41 @@ while(True):
                     case "13":
                         linhas(2)
                         coordenadas()
+                    case _:
+                        print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
+            except ValueError as e:
+                print("Erro na digitação!")
+        case 3:
+            try:
+                linhas(1)
+                print("Atividades de Estrutura de Repetição (While e For)")
+                print("Escolha a atividade usando numeros de 1 a 16")
+                print("Caso queira voltar para o menu inicial, use 0")
+                    
+                opcao = input("Qual atividade você gostaria de ver?: ")
+                    
+                match opcao:
+                    case "0":
+                        print("\nVoltando...")
+                        menu = 0
+                    case "1":
+                        linhas(2)
+                        crescente()
+                    case "2":
+                        linhas(2)
+                        media_idades()
+                    case "3":
+                        linhas(2)
+                        senha_fixa()
+                    case "4":
+                        linhas(2)
+                        quadrante()
+                    case "5":
+                        linhas(2)
+                        validacao_de_nota()
+                    case "6":
+                        linhas(2)
+                        combustivel()
                     case _:
                         print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
             except ValueError as e:
