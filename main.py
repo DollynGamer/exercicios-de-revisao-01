@@ -168,6 +168,36 @@ while(True):
                     case "6":
                         linhas(2)
                         combustivel()
+                    case "7":
+                        linhas(2)
+                        pares_consecutivos()
+                    case "8":
+                        linhas(2)
+                        tabuada()
+                    case "9":
+                        linhas(2)
+                        soma_impares()
+                    case "10":
+                        linhas(2)
+                        sequencia_impares()
+                    case "11":
+                        linhas(2)
+                        dentro_fora()
+                    case "12":
+                        linhas(2)
+                        par_impar()
+                    case "13":
+                        linhas(2)
+                        media_ponderada()
+                    case "14":
+                        linhas(2)
+                        divisao()
+                    case "15":
+                        linhas(2)
+                        fatorial()
+                    case "16":
+                        linhas(2)
+                        experiencias()
                     case _:
                         print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
             except ValueError as e:
