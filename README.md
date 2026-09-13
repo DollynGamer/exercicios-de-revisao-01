@@ -5,6 +5,8 @@ essas primeiras atividades são uma revisão de:
 - Estrutura Sequencial
 - Estrutura Condicional
 
+Os exercícios de estrutura sequencial e condicional podem ser encontradas nos arquivos `atividades_sequencial.py` `atividades_condicional.py`
+
 # Exercícios de Revisão - 27/08/26 - Aula 01 - Parte II
 
 essas atividades são uma revisão de:
@@ -13,7 +15,11 @@ essas atividades são uma revisão de:
 - Vetores
 - Matrizes
 
-Os exercícios de estrutura sequencial e condicional podem ser encontradas nos arquivos `atividades_sequencial.py` `atividades_condicional.py`
+
+
+Os exercícios de estrutura de repetição, vetores e matrizes podem ser encontradas nos arquivos `atividades_repeticao.py` `atividades_vetores.py`
+
+*(matrizes ainda estão em andamento!)*
 
 Menu para acessar as atividades foi incluso, pode ser encontrado no arquivo `main.py`
 

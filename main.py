@@ -1,6 +1,7 @@
 from atividades_sequencial import *
 from atividades_condicional import *
 from atividades_repeticao import *
+from atividades_vetores import *
 from colorama import Fore, Back, Style, init
 
 init()
@@ -27,6 +28,7 @@ while(True):
     print("1 = Estrutura Sequencial (27/08/26)")
     print("2 = Estrutura Condicional (27/08/26)")
     print("3 = Estrutura de Repeticao (While e For) (27/08/26)")
+    print("4 = Atividades de Vetores (27/08/26)")
     print("qualquer letra = Sair do programa")
 
     try:
@@ -198,6 +200,59 @@ while(True):
                     case "16":
                         linhas(2)
                         experiencias()
+                    case _:
+                        print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
+            except ValueError as e:
+                print("Erro na digitação!")
+        case 4:
+            try:
+                linhas(1)
+                print("Atividades de Vetores")
+                print("Escolha a atividade usando numeros de 1 a 12")
+                print("Caso queira voltar para o menu inicial, use 0")
+                                
+                opcao = input("Qual atividade você gostaria de ver?: ")
+                                
+                match opcao:
+                    case "0":
+                        print("\nVoltando...")
+                        menu = 0
+                    case "1":
+                        linhas(2)
+                        negativos()
+                    case "2":
+                        linhas(2)
+                        soma_vetor()
+                    case "3":
+                        linhas(2)
+                        alturas()
+                    case "4":
+                        linhas(2)
+                        numeros_pares()
+                    case "5":
+                        linhas(2)
+                        maior_posicao()
+                    case "6":
+                        linhas(2)
+                        soma_vetores()
+                    case "7":
+                        linhas(2)
+                        abaixo_da_media()
+                    case "8":
+                        linhas(2)
+                        media_pares()
+                    case "9":
+                        linhas(2)
+                        mais_velho()
+                    case "10":
+                        linhas(2)
+                        aprovados()
+                    case "11":
+                        linhas(2)
+                        dados_pessoas()
+                    case "12":
+                        linhas(2)
+                        comerciante()
                     case _:
                         print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
             except ValueError as e:
