@@ -2,6 +2,7 @@ from atividades_sequencial import *
 from atividades_condicional import *
 from atividades_repeticao import *
 from atividades_vetores import *
+from atividades_matrizes import *
 from colorama import Fore, Back, Style, init
 
 init()
@@ -29,6 +30,7 @@ while(True):
     print("2 = Estrutura Condicional (27/08/26)")
     print("3 = Estrutura de Repeticao (While e For) (27/08/26)")
     print("4 = Atividades de Vetores (27/08/26)")
+    print("5 = Atividades de Matrizes (27/08/26)")
     print("qualquer letra = Sair do programa")
 
     try:
@@ -253,6 +255,44 @@ while(True):
                     case "12":
                         linhas(2)
                         comerciante()
+                    case _:
+                        print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
+            except ValueError as e:
+                print("Erro na digitação!")
+        case 5:
+            try:
+                linhas(1)
+                print("Atividades de Matrizes")
+                print("Escolha a atividade usando numeros de 1 a 7")
+                print("Caso queira voltar para o menu inicial, use 0")
+                                        
+                opcao = input("Qual atividade você gostaria de ver?: ")
+                                        
+                match opcao:
+                    case "0":
+                        print("\nVoltando...")
+                        menu = 0
+                    case "1":
+                        linhas(2)
+                        diagonal_negativos()
+                    case "2":
+                        linhas(2)
+                        soma_linhas()
+                    case "3":
+                        linhas(2)
+                        negativos_matriz()
+                    case "4":
+                        linhas(2)
+                        cada_linha()
+                    case "5":
+                        linhas(2)
+                        soma_matrizes()
+                    case "6":
+                        linhas(2)
+                        acima_diagonal()
+                    case "7":
+                        linhas(2)
+                        matriz_geral()
                     case _:
                         print(Fore.RED + "\nNão existe!" + Style.RESET_ALL)
             except ValueError as e:

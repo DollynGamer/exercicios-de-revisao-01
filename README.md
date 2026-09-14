@@ -15,11 +15,7 @@ essas atividades são uma revisão de:
 - Vetores
 - Matrizes
 
-
-
-Os exercícios de estrutura de repetição, vetores e matrizes podem ser encontradas nos arquivos `atividades_repeticao.py` `atividades_vetores.py`
-
-*(matrizes ainda estão em andamento!)*
+Os exercícios de estrutura de repetição, vetores e matrizes podem ser encontradas nos arquivos `atividades_repeticao.py` `atividades_vetores.py` `atividades_matrizes.py`
 
 Menu para acessar as atividades foi incluso, pode ser encontrado no arquivo `main.py`
 
